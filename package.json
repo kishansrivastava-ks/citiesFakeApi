@@ -1,0 +1,14 @@
+{
+  "name": "citiesfakeapi",
+  "version": "1.0.0",
+  "description": "fake api for cities data.",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js"
+  },
+  "author": "kishan",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
