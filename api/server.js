@@ -3,6 +3,12 @@ const jsonServer = require("json-server");
 const server = jsonServer.create();
 const router = jsonServer.router("cities.json");
 const middlewares = jsonServer.defaults();
+const express = require("express");
+const cors = require("cors");
+
+const app = express();
+
+app.use(cors());
 
 server.use(middlewares);
 // Add this before server.use(router)
